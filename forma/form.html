@@ -1,0 +1,17 @@
+<div><div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+    <div class="remodalBorder">
+     
+     <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+         <form id="form">
+           <h2 id="modal1Title">Обратный звонок</h2>
+           Имя<br><input type="text" class="putName" name="name" placeholder="Ваше ваше имя" required>
+           Телефон<br><input id="phone1" name="phone1" type="tel" class="putPhone" placeholder="Введите номер телефона" required > <br>
+           <script>
+             $('#phone1').inputmask("+7 (999) 999-99-99");
+           </script>
+           <label><input type="checkbox" checked="checked" required>Согласие на обработку персональных данных</label>
+           <input type="submit" name="submit" class="btn" value="Отправить">    
+       </form>
+   </div>
+   </div></div>
+   <div id="center"><a href="#modal" class="as-modal">Обратный звонок</a></div>
