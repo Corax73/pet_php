@@ -91,7 +91,7 @@
   </style>
 <div class="parent">
     <div class="block">
-<h3 class="h1">Время/время UNIX<h3>
+<h3 class="h1">Время/время UNIX</h3>
 <form action="time1.php" method="POST">
    <p>Выберите формат вывода времени, один или оба</p>
    <p><input type="checkbox" name="a[]" value="1">MySQL DateTime</p>

@@ -43,17 +43,17 @@
     font-size: 12pt;
   }
   </style> 
-<h3 class="h1">Смена раскладки En -> Ру<h3>
+<h3 class="h1">Смена раскладки En -> Ру</h3>
   <table cellspacing="0" id="maket" class="table">
    <tr> 
     <td id="leftcol">
 	<form action="change_keyboard_layout1.php" method="post">
-   <h8>Вставьте нужный отрывок текста<h8>
+   <h8>Вставьте нужный отрывок текста</h8>
    <br>
-   <h9>Ограничение - до 1500 символов<h9>
+   <h9>Ограничение - до 1500 символов</h9>
    <br>
    <p><textarea name="text"></textarea></p>
-   <h6>Меняем символы на другую раскладку<h6>
+   <h6>Меняем символы на другую раскладку</h6>
    <p><input name="change" type="radio" value="1" checked>Смена раскладки En -> Ру</p>
    <p><input type="submit" value="Отправить"></p>
   </form>

@@ -64,13 +64,13 @@ $zakaz=array_sum ($vibor);
 ?>
   <h3>Вы выбрали на сумму <?php print $zakaz;?> уе</h3>
  <form action="zakaz.php" method="post">
-  <h6>Ваше имя для оформления заказа<h6>
+  <h6>Ваше имя для оформления заказа</h6>
    <p><input name="name"  placeholder="Имя"/></p>
    <br>
-   <h6>Ваш e-mail для связи<h6>
+   <h6>Ваш e-mail для связи</h6>
    <p><input name="surname" placeholder="Почта"/></p>
    <br>
-   <h6>Ваше комментарии<h6>
+   <h6>Ваше комментарии</h6>
    <p><textarea name="comment"></textarea></p>
    <p><input type="submit" value="Заказать"></p>
   </form>

@@ -56,17 +56,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php';
    table {
     background: maroon; /* Цвет фона таблицы */
     color: white; /* Цвет текста */
+    margin: auto;
    }
    td {
     background: navy; /* Цвет фона ячеек */
    }
   </style>
-  <tr>
-    <td>Время/Время UNIX</td>
-    <td>
+  <td>
 <?php
 if (empty($_POST["a"])) {
-    echo 'Вы не выбрали ни одного формата</td></tr></table></p></p>
+    echo '<br>Вы не выбрали ни одного формата</td></tr></table></p></p>
  <br><p align="center"><a href="/"> Вернуться на главную</a></p>';
  echo '<meta http-equiv="refresh" content="2;URL=http://k98768fx.beget.tech/time_unix"/>';
     exit();
@@ -111,8 +110,7 @@ if (!empty($b[1])) {
 }
 ?>
 </td>
- </tr>
-  </table></p>
+ </table></p>
   
   </body>
  <p align="center"><a href="/"> Вернуться на главную</a></p>

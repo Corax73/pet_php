@@ -64,18 +64,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php';
 <div id="wrap1">
     <div class="block">
 <body background="/img/fon.jpg" bgproperties="fixed">
-<div><h1 class="h1">Отзывы<h1>
+<div><h1 class="h1">Отзывы</h1>
 <table cellspacing="0" id="maket">
    <tr> 
     <td id="leftcol">
 	<form action="comm.php" method="post">
-   <h6>Ваше имя<h6>
+   <h6>Ваше имя</h6>
    <p><input name="name"  placeholder="Имя"/></p>
   
-   <h6>Ваш e-mail для связи<h6>
+   <h6>Ваш e-mail для связи</h6>
    <p><input name="email" placeholder="Почта"/></p>
   
-   <h6>Ваше сообщение<h6>
+   <h6>Ваше сообщение</h6>
    <p><textarea name="msg"></textarea></p>
    <p><input type="submit" value="Отправить"></p>
   </form>
