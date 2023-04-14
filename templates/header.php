@@ -16,7 +16,7 @@ foreach ($menu as $key => $value) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Площади фигур, смена регистра текста, погода в ульяновске, время unix"> 
-	  <meta name="Keywords" content="расчет площади, простой калькулятор, убрать капс, капс, сменить регистр, погода в ульяновске, время unix"
+	  <meta name="Keywords" content="расчет площади, простой калькулятор, убрать капс, капс, сменить регистр, погода в ульяновске, время unix">
     <meta name="robots" content="index,follow"/>
     <title>PHP Development</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -25,6 +25,15 @@ foreach ($menu as $key => $value) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link href="/source/css/style.css" rel="stylesheet">
+    <script>
+    document.ondragstart = test;
+    document.onselectstart = test;
+    document.oncontextmenu = test;
+    
+    function test() {
+      return false
+      }
+    </script>
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">

@@ -44,6 +44,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php';
 $name = $_POST['name'];
 $surname = $_POST['surname'];
 $comment = $_POST['comment'];
+if (empty($name) or empty($surname) or empty($comment)) {
+    echo '<br>Вы ввели пробелы вместо данных</td></tr></table></p></p>
+ <br><p align="center"><a href="/">Вернуться на главную</a></p>';
+ echo '<meta http-equiv="refresh" content="2;URL=http://refact/feedback"/>';
+    exit();
+}
 $file = fopen($_SERVER['DOCUMENT_ROOT'] . "/source/servicetxt/feedback.txt","a+");
 fwrite($file,"\n $name:$surname:\n $comment \n");
 fclose($file);
